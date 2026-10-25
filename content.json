@@ -1,0 +1,689 @@
+{
+  "hu": {
+    "title": "Adatvédelmi tájékoztató",
+    "label": "Adatvédelem",
+    "draft": "SZERKESZTHETŐ SABLON",
+    "warning": "Ez egy előkészített tájékoztató, nem végleges kiadási dokumentum. A jelölt mezőket és a ténylegesen kiadott szolgáltatásokat közzététel előtt véglegesíteni kell.",
+    "intro": "Így kezeljük az ArcherFW játékhoz kapcsolódó adatokat: mi marad a készüléken, mit használnak a Unity-szolgáltatások, és hogyan kérhető segítség.",
+    "updated": "Tervezet frissítve: 2026. október 25.",
+    "effective": "Hatálybalépés: [KIADÁSKOR KITÖLTENDŐ]",
+    "contents": "A dokumentumban",
+    "skip": "Ugrás a tartalomra",
+    "back": "Vissza az elejére",
+    "note": "ArcherFW munkacím · általános közönségnek",
+    "placeholders": "A színezett mezők még kitöltendők.",
+    "sourceLabel": "A Unity saját adatvédelmi tájékoztatója",
+    "accountLabel": "Unity Player Account kezelése",
+    "sections": [
+      [
+        "controller",
+        "Ki felel az adatokért?",
+        [
+          [
+            "p",
+            "A játék adatkezelője és adatvédelmi kapcsolattartója az alábbi személy vagy szervezet."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Játék kiadási neve",
+                "ArcherFW [VÉGLEGES KIADÁSI NÉV]"
+              ],
+              [
+                "Adatkezelő / kiadó",
+                "[ADATKEZELŐ NYILVÁNOS NEVE]"
+              ],
+              [
+                "Kapcsolattartó e-mail",
+                "[NYILVÁNOS KAPCSOLATTARTÓ E-MAIL]"
+              ],
+              [
+                "Levelezési elérhetőség",
+                "[ADATKEZELŐ LEVELEZÉSI ELÉRHETŐSÉGE]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "A játék nem kér saját adatkezelési célra jelszót. A külső belépést a Unity vagy a választott bejelentkezési szolgáltató felülete kezeli."
+          ]
+        ]
+      ],
+      [
+        "data",
+        "Milyen adatokról van szó?",
+        [
+          [
+            "table",
+            [
+              [
+                "Adatkör",
+                "Rendeltetés"
+              ],
+              [
+                "Helyi játékállapot",
+                "Játékosnév és azonosító, előrehaladás, felszerelés, játékbeli egyenlegek és beállítások tárolása a készüléken."
+              ],
+              [
+                "Fiókazonosítás",
+                "Unity Authentication játékosazonosító; összekapcsoláskor a külső fiókhoz tartozó azonosító."
+              ],
+              [
+                "Technikai kapcsolat",
+                "A felhőszolgáltatások működéséhez kapcsolódó kérésadatok; a Cloud Save a játékosazonosítót és az IP-címet is kezeli."
+              ],
+              [
+                "Kapcsolatfelvétel",
+                "Az a név, e-mail-cím és üzenet, amelyet egy támogatási vagy adatvédelmi kérésben önként megadsz."
+              ]
+            ]
+          ],
+          [
+            "p",
+            "Előre meghatározott avatárok és bannerek választhatók; saját profilfotó feltöltése nem része a játéknak. A játék jelenlegi fiókintegrációja nem kér e-mail-hozzáférési jogosultságot. A Unity saját fiókoldala ettől függetlenül kezelhet e-mail-címet."
+          ]
+        ]
+      ],
+      [
+        "cloud",
+        "Vendégfiók és felhőmentés",
+        [
+          [
+            "p",
+            "A játék vendégazonosítást és opcionális tartós fiókhoz kapcsolást támogat. A vendégfiókhoz tartozó hitelesítési adatok elvesztésekor a hozzáférés helyreállítása korlátozott lehet."
+          ],
+          [
+            "callout",
+            "A jelenleg ellenőrzött integrációban a hitelesítés és a védett Cloud Save-adatok olvasása működik. A teljes játékállapot szerveroldali írása, visszaállítása és profilátvitele még megvalósítás alatt áll; ez a tervezet nem állítja, hogy a teljes helyi mentés már fel van töltve."
+          ],
+          [
+            "p",
+            "A végleges tájékoztatót a kiadott felhőmentési működéshez kell igazítani. Ha a felhőmentés aktív lesz, a hozzá tartozó profiladatokat, célokat és megőrzést is rögzíteni kell."
+          ]
+        ]
+      ],
+      [
+        "purpose",
+        "Célok és jogalapok",
+        [
+          [
+            "p",
+            "A játékállapot kezelése a játék működését, a hitelesítés a fiók elérését és védelmét, a kapcsolattartás a kérések megválaszolását szolgálja."
+          ],
+          [
+            "placeholder",
+            "[JOGALAPOK VÉGLEGESÍTÉSE: az egyes célokhoz szükséges szerződéses teljesítés, jogos érdek és annak érdekmérlegelése, jogi kötelezettség, illetve valóban opcionális adatkezelésnél hozzájárulás.]"
+          ],
+          [
+            "p",
+            "E tájékoztató megnyitása nem jelent általános hozzájárulást minden adatkezeléshez. Ha egy későbbi funkció külön hozzájárulást igényel, annak kezelése külön történik."
+          ]
+        ]
+      ],
+      [
+        "providers",
+        "Szolgáltatók és adattovábbítás",
+        [
+          [
+            "p",
+            "A Unity Gaming Services a játék hitelesítéséhez és felhőfunkcióihoz kapcsolódó szolgáltató. A Unity Player Account önálló Unity-fiók, amelynél Unity külön adatkezelőként jár el; a játékhoz kapcsolódó adatkezelésért a játék kiadója felel."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Nyilvános oldal tárhelye",
+                "[A VÁLASZTOTT TÁRHELYSZOLGÁLTATÓ]"
+              ],
+              [
+                "Nemzetközi adattovábbítás",
+                "[ALKALMAZOTT SZERZŐDÉSEK, TÁROLÁSI HELYEK ÉS GARANCIÁK]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "A webtárhely szolgáltatója az oldal kiszolgálásához szükséges technikai kérésadatokat kezelheti. A szolgáltatók szerepét és az esetleges EGT-n kívüli feldolgozás garanciáit a végleges beállítások és szerződések alapján kell pontosítani."
+          ]
+        ]
+      ],
+      [
+        "retention",
+        "Meddig tároljuk?",
+        [
+          [
+            "p",
+            "A készüléken lévő adatok megőrzését az alkalmazás és az operációs rendszer tárolási, biztonsági mentési és törlési működése befolyásolja. A fiókadatok és a játék felhőadatai külön is tárolódhatnak."
+          ],
+          [
+            "placeholder",
+            "[MEGŐRZÉSI TERV: profil- és fiókadatok, támogatási levelezés, technikai naplók, biztonsági mentések törlési rendje; szükséges kivételek és jogalapjuk.]"
+          ]
+        ]
+      ],
+      [
+        "rights",
+        "Hozzáférés és jogok",
+        [
+          [
+            "p",
+            "Az alkalmazandó jog feltételei szerint kérhető hozzáférés, helyesbítés, törlés, korlátozás vagy adathordozhatóság; adott esetben tiltakozás és a hozzájárulás visszavonása is lehetséges. Panasszal az illetékes adatvédelmi felügyeleti hatósághoz fordulhatsz."
+          ],
+          [
+            "p",
+            "A kérést a fenti, véglegesítés után működő kapcsolattartói címre lehet elküldeni. A fiókhoz tartozás ellenőrzéséhez szükséges adatot kérhetünk, de jelszót, belépési kódot vagy bankkártyaadatot ne küldj."
+          ]
+        ]
+      ],
+      [
+        "deletion",
+        "Játékadat vagy Unity-fiók törlése?",
+        [
+          [
+            "p",
+            "A játékprofil és a Unity Player Account különböző adatok és szolgáltatások. A készülékről való eltávolítás nem feltétlenül törli a felhőadatokat. A játékhoz tartozó törlési kérést a játék adatkezelője kezeli."
+          ],
+          [
+            "p",
+            "A Unity Player Account kezelése a Unity saját felületén történik. Ennek törlése önmagában nem jelenti az összes, más integrált játékban tárolt adat törlését; a játékadatokhoz külön kérés is szükséges lehet."
+          ],
+          [
+            "placeholder",
+            "[KIADÁS ELŐTT: játékból indítható törlési folyamat és nyilvános kérelmezési lehetőség, határidő és visszaigazolás véglegesítése.]"
+          ]
+        ]
+      ],
+      [
+        "audience",
+        "Közönség, reklám és sütik",
+        [
+          [
+            "p",
+            "Az ArcherFW általános közönségnek készül, nem kifejezetten gyermekeknek szánt szolgáltatás. Gyermek adatait érintő kérdésnél a végleges kapcsolattartón keresztül lehet jelezni a problémát."
+          ],
+          [
+            "p",
+            "Ez a tájékoztató-oldal nem tartalmaz saját analitikát, sütit beállító kódot, beágyazott követőt, űrlapot vagy külső betűkészletet. A hivatkozott külső oldalak saját szabályai érvényesek."
+          ],
+          [
+            "p",
+            "A kiadott játék reklám-, analitikai és vásárlási SDK-it külön ellenőrizni kell. Az oldal követőkód nélküli működése nem jelenti azt, hogy a játék felhőszolgáltatásai nem kezelnek adatot."
+          ]
+        ]
+      ],
+      [
+        "changes",
+        "Változtatások és biztonság",
+        [
+          [
+            "p",
+            "A tájékoztató módosítható; a végleges változat frissítési dátuma a dokumentum elején lesz. Új szolgáltatás vagy lényegesen eltérő adatkezelés bevezetése előtt a szöveget és a szükséges tájékoztatást is frissíteni kell."
+          ],
+          [
+            "p",
+            "A kiadási ellenőrzés része a hozzáférések, mentési/visszaállítási működés és adattörlés ellenőrzése. Ez a sablon nem tanúsít jogszabályi megfelelést, és nem helyettesíti a kiadó tényleges adatkezelési döntéseit."
+          ]
+        ]
+      ]
+    ]
+  },
+  "en": {
+    "title": "Privacy notice",
+    "label": "Privacy",
+    "draft": "EDITABLE TEMPLATE",
+    "warning": "This is a prepared draft, not a final release policy. Complete the marked fields and verify the services actually shipped before publication.",
+    "intro": "How data related to ArcherFW is handled: what stays on your device, what Unity services use, and how to request help.",
+    "updated": "Draft updated: 25 October 2026",
+    "effective": "Effective date: [COMPLETE BEFORE RELEASE]",
+    "contents": "In this document",
+    "skip": "Skip to content",
+    "back": "Back to top",
+    "note": "ArcherFW working title · general audience",
+    "placeholders": "Highlighted fields still need to be completed.",
+    "sourceLabel": "Unity privacy policy",
+    "accountLabel": "Manage your Unity Player Account",
+    "sections": [
+      [
+        "controller",
+        "Who is responsible?",
+        [
+          [
+            "p",
+            "The controller and privacy contact for this game are the person or organisation identified below."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Release title",
+                "ArcherFW [FINAL RELEASE TITLE]"
+              ],
+              [
+                "Controller / publisher",
+                "[PUBLIC CONTROLLER NAME]"
+              ],
+              [
+                "Contact email",
+                "[PUBLIC CONTACT EMAIL]"
+              ],
+              [
+                "Postal contact",
+                "[CONTROLLER POSTAL CONTACT]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "The game does not ask for your password for its own data handling. External sign-in is handled by Unity or your chosen sign-in provider."
+          ]
+        ]
+      ],
+      [
+        "data",
+        "What data is involved?",
+        [
+          [
+            "table",
+            [
+              [
+                "Data category",
+                "Purpose"
+              ],
+              [
+                "Local game state",
+                "Player name and identifier, progress, equipment, in-game balances and settings stored on your device."
+              ],
+              [
+                "Account identification",
+                "Unity Authentication Player ID and, when linked, the identifier associated with the external account."
+              ],
+              [
+                "Technical connection",
+                "Request data needed for cloud services; Cloud Save handles the Authentication Player ID and IP address."
+              ],
+              [
+                "Contact requests",
+                "The name, email address and message you choose to provide in a support or privacy request."
+              ]
+            ]
+          ],
+          [
+            "p",
+            "Avatars and banners are predefined; custom profile-photo uploads are not supported. The current game integration does not request the email scope. Unity’s own account website can process an email address separately."
+          ]
+        ]
+      ],
+      [
+        "cloud",
+        "Guest accounts and cloud saves",
+        [
+          [
+            "p",
+            "The game supports guest authentication and optional linking to a persistent account. Recovery may be limited if an unlinked guest loses its authentication credentials."
+          ],
+          [
+            "callout",
+            "The currently verified integration supports authentication and reading Protected Cloud Save data. Full server-side game-state writing, restoration and migration are still being implemented. This draft does not claim that the complete local save has already been uploaded."
+          ],
+          [
+            "p",
+            "The final notice must reflect the released cloud-save behaviour. When cloud saves become active, the profile data, purposes and retention must be documented accordingly."
+          ]
+        ]
+      ],
+      [
+        "purpose",
+        "Purposes and legal bases",
+        [
+          [
+            "p",
+            "Game-state processing supports the game, authentication provides and protects account access, and contact processing allows requests to be answered."
+          ],
+          [
+            "placeholder",
+            "[FINALISE LEGAL BASES: necessary contractual performance, legitimate interests and their assessment, legal obligations, or consent for genuinely optional processing, matched to each purpose.]"
+          ],
+          [
+            "p",
+            "Opening this notice is not blanket consent to all processing. Any later feature requiring specific consent must handle it separately."
+          ]
+        ]
+      ],
+      [
+        "providers",
+        "Providers and transfers",
+        [
+          [
+            "p",
+            "Unity Gaming Services provides services for the game’s authentication and cloud features. A Unity Player Account is a separate Unity account, for which Unity acts as an independent controller; the game publisher is responsible for its game-related processing."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Public website host",
+                "[SELECTED HOSTING PROVIDER]"
+              ],
+              [
+                "International transfers",
+                "[APPLICABLE AGREEMENTS, PROCESSING LOCATIONS AND SAFEGUARDS]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "The website host can process technical request data needed to serve this page. Provider roles and safeguards for any processing outside the EEA must be confirmed against the final configuration and agreements."
+          ]
+        ]
+      ],
+      [
+        "retention",
+        "How long is data kept?",
+        [
+          [
+            "p",
+            "Local retention depends on the application’s and operating system’s storage, backup and removal behaviour. Account data and the game’s cloud data can be stored separately."
+          ],
+          [
+            "placeholder",
+            "[RETENTION SCHEDULE: profile/account data, support correspondence, technical logs and backup cleanup; necessary exceptions and their legal basis.]"
+          ]
+        ]
+      ],
+      [
+        "rights",
+        "Access and privacy rights",
+        [
+          [
+            "p",
+            "Subject to applicable law, you may request access, correction, erasure, restriction or portability; objection and withdrawal of consent may also apply. You can complain to the competent data-protection supervisory authority."
+          ],
+          [
+            "p",
+            "Send requests to the contact address above once it has been finalised. We may request information needed to verify account ownership. Do not send passwords, sign-in codes or payment-card information."
+          ]
+        ]
+      ],
+      [
+        "deletion",
+        "Delete game data or a Unity account?",
+        [
+          [
+            "p",
+            "The game profile and Unity Player Account are different records and services. Uninstalling does not necessarily delete cloud data. The game controller handles deletion requests for game-related data."
+          ],
+          [
+            "p",
+            "Manage the separate Unity Player Account on Unity’s own website. Deleting it does not by itself delete all data held by other integrated games; a separate game-data request may be needed."
+          ],
+          [
+            "placeholder",
+            "[BEFORE RELEASE: finalise the in-game deletion flow and public request route, timing and confirmation.]"
+          ]
+        ]
+      ],
+      [
+        "audience",
+        "Audience, advertising and cookies",
+        [
+          [
+            "p",
+            "ArcherFW is intended for a general audience and is not specifically directed to children. Concerns involving a child’s data can be raised with the finalised privacy contact."
+          ],
+          [
+            "p",
+            "This notice page has no own analytics, cookie-setting code, embedded trackers, forms or external fonts. External linked pages have their own policies."
+          ],
+          [
+            "p",
+            "Advertising, analytics and purchasing SDKs in the shipped game require a separate review. A tracker-free notice page does not mean that the game’s cloud services process no data."
+          ]
+        ]
+      ],
+      [
+        "changes",
+        "Changes and security",
+        [
+          [
+            "p",
+            "This notice can be updated; the final version’s revision date will appear at the top. Update the notice and required disclosures before introducing a new service or materially different processing."
+          ],
+          [
+            "p",
+            "Release checks must cover access, save/restore behaviour and deletion. This template does not certify legal compliance or replace the publisher’s actual processing decisions."
+          ]
+        ]
+      ]
+    ]
+  },
+  "de": {
+    "title": "Datenschutzhinweise",
+    "label": "Datenschutz",
+    "draft": "BEARBEITBARE VORLAGE",
+    "warning": "Dies ist ein vorbereiteter Entwurf, keine endgültige Datenschutzerklärung. Markierte Felder und tatsächlich veröffentlichte Dienste müssen vor der Veröffentlichung bestätigt werden.",
+    "intro": "Wie Daten zu ArcherFW verarbeitet werden: was auf deinem Gerät bleibt, was Unity-Dienste verwenden und wie du Hilfe anfordern kannst.",
+    "updated": "Entwurf aktualisiert: 25. Oktober 2026",
+    "effective": "Gültig ab: [VOR VERÖFFENTLICHUNG AUSFÜLLEN]",
+    "contents": "In diesem Dokument",
+    "skip": "Zum Inhalt springen",
+    "back": "Zurück nach oben",
+    "note": "ArcherFW Arbeitstitel · allgemeines Publikum",
+    "placeholders": "Markierte Angaben sind noch auszufüllen.",
+    "sourceLabel": "Datenschutzerklärung von Unity",
+    "accountLabel": "Unity Player Account verwalten",
+    "sections": [
+      [
+        "controller",
+        "Wer ist verantwortlich?",
+        [
+          [
+            "p",
+            "Verantwortlich für das Spiel und Datenschutzanfragen ist die unten anzugebende Person oder Organisation."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Veröffentlichungstitel",
+                "ArcherFW [ENDGÜLTIGER TITEL]"
+              ],
+              [
+                "Verantwortlicher / Herausgeber",
+                "[ÖFFENTLICHER NAME DES VERANTWORTLICHEN]"
+              ],
+              [
+                "Kontakt-E-Mail",
+                "[ÖFFENTLICHE KONTAKT-E-MAIL]"
+              ],
+              [
+                "Postkontakt",
+                "[POSTANSCHRIFT DES VERANTWORTLICHEN]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "Das Spiel fragt für seine eigene Datenverarbeitung nicht nach deinem Passwort. Externe Anmeldungen erfolgen über Unity oder den gewählten Anmeldeanbieter."
+          ]
+        ]
+      ],
+      [
+        "data",
+        "Welche Daten sind betroffen?",
+        [
+          [
+            "table",
+            [
+              [
+                "Datenkategorie",
+                "Zweck"
+              ],
+              [
+                "Lokaler Spielstand",
+                "Spielername und Kennung, Fortschritt, Ausrüstung, Spielguthaben und Einstellungen auf deinem Gerät."
+              ],
+              [
+                "Kontoidentifizierung",
+                "Unity Authentication Player ID und bei Verknüpfung die Kennung des externen Kontos."
+              ],
+              [
+                "Technische Verbindung",
+                "Für Cloud-Dienste erforderliche Anfragedaten; Cloud Save verarbeitet die Spielerkennung und IP-Adresse."
+              ],
+              [
+                "Kontaktanfragen",
+                "Name, E-Mail-Adresse und Nachricht, die du bei einer Support- oder Datenschutzanfrage angibst."
+              ]
+            ]
+          ],
+          [
+            "p",
+            "Avatare und Banner sind vorgegeben; eigene Profilfotos können nicht hochgeladen werden. Die derzeitige Spielintegration fordert keinen E-Mail-Scope an. Die separate Kontowebsite von Unity kann dennoch eine E-Mail-Adresse verarbeiten."
+          ]
+        ]
+      ],
+      [
+        "cloud",
+        "Gastkonto und Cloud-Spielstand",
+        [
+          [
+            "p",
+            "Das Spiel unterstützt Gastanmeldung und die optionale Verknüpfung mit einem dauerhaften Konto. Gehen die Zugangsdaten eines nicht verknüpften Gastes verloren, kann eine Wiederherstellung eingeschränkt sein."
+          ],
+          [
+            "callout",
+            "Die derzeit überprüfte Integration ermöglicht Anmeldung und das Lesen geschützter Cloud-Save-Daten. Vollständiges serverseitiges Schreiben, Wiederherstellen und Übertragen des Spielstands wird noch umgesetzt. Dieser Entwurf behauptet nicht, dass der vollständige lokale Spielstand bereits hochgeladen wurde."
+          ],
+          [
+            "p",
+            "Die endgültigen Hinweise müssen die veröffentlichte Cloud-Funktion beschreiben. Bei ihrer Aktivierung sind Profildaten, Zwecke und Aufbewahrung entsprechend zu dokumentieren."
+          ]
+        ]
+      ],
+      [
+        "purpose",
+        "Zwecke und Rechtsgrundlagen",
+        [
+          [
+            "p",
+            "Spielstanddaten ermöglichen das Spiel; die Anmeldung ermöglicht und schützt den Kontozugang; Kontaktdaten dienen der Beantwortung von Anfragen."
+          ],
+          [
+            "placeholder",
+            "[RECHTSGRUNDLAGEN FESTLEGEN: erforderliche Vertragserfüllung, berechtigte Interessen samt Abwägung, gesetzliche Pflichten oder Einwilligung bei tatsächlich optionaler Verarbeitung, jeweils nach Zweck.]"
+          ],
+          [
+            "p",
+            "Das Öffnen dieser Hinweise ist keine pauschale Einwilligung. Eine spätere Funktion mit Einwilligungserfordernis muss diese gesondert behandeln."
+          ]
+        ]
+      ],
+      [
+        "providers",
+        "Dienstleister und Übermittlungen",
+        [
+          [
+            "p",
+            "Unity Gaming Services stellt Dienste für Anmeldung und Cloud-Funktionen bereit. Ein Unity Player Account ist ein eigenständiges Unity-Konto mit Unity als unabhängig Verantwortlichem. Für die spielbezogene Verarbeitung ist der Herausgeber verantwortlich."
+          ],
+          [
+            "fields",
+            [
+              [
+                "Hoster dieser Website",
+                "[GEWÄHLTER HOSTINGANBIETER]"
+              ],
+              [
+                "Internationale Übermittlungen",
+                "[VERTRÄGE, VERARBEITUNGSORTE UND GARANTIEN]"
+              ]
+            ]
+          ],
+          [
+            "p",
+            "Der Website-Hoster kann technische Anfragedaten zur Auslieferung dieser Seite verarbeiten. Anbieterrollen und Garantien für eine Verarbeitung außerhalb des EWR sind anhand der endgültigen Konfiguration und Verträge zu bestätigen."
+          ]
+        ]
+      ],
+      [
+        "retention",
+        "Wie lange werden Daten gespeichert?",
+        [
+          [
+            "p",
+            "Die lokale Speicherung hängt von Anwendung, Betriebssystem, Sicherung und Löschung ab. Kontodaten und Cloud-Daten des Spiels können getrennt gespeichert sein."
+          ],
+          [
+            "placeholder",
+            "[AUFBEWAHRUNGSPLAN: Profil- und Kontodaten, Supportnachrichten, technische Protokolle und Bereinigung von Sicherungen; notwendige Ausnahmen und Rechtsgrundlagen.]"
+          ]
+        ]
+      ],
+      [
+        "rights",
+        "Auskunft und Datenschutzrechte",
+        [
+          [
+            "p",
+            "Nach Maßgabe des geltenden Rechts kannst du Auskunft, Berichtigung, Löschung, Einschränkung oder Übertragbarkeit verlangen; Widerspruch und Widerruf einer Einwilligung können ebenfalls möglich sein. Beschwerden sind bei der zuständigen Datenschutzaufsicht möglich."
+          ],
+          [
+            "p",
+            "Sende Anfragen an die oben nachzutragende Kontaktadresse. Zur Prüfung der Kontozugehörigkeit können notwendige Angaben erfragt werden. Sende keine Passwörter, Anmeldecodes oder Zahlungskartendaten."
+          ]
+        ]
+      ],
+      [
+        "deletion",
+        "Spieldaten oder Unity-Konto löschen?",
+        [
+          [
+            "p",
+            "Spielprofil und Unity Player Account sind unterschiedliche Datensätze und Dienste. Eine Deinstallation löscht Cloud-Daten nicht zwingend. Löschanfragen zu Spieldaten bearbeitet der Verantwortliche des Spiels."
+          ],
+          [
+            "p",
+            "Das eigenständige Unity Player Account wird auf Unitys Website verwaltet. Seine Löschung entfernt nicht automatisch sämtliche Daten anderer integrierter Spiele; dafür kann eine gesonderte Anfrage erforderlich sein."
+          ],
+          [
+            "placeholder",
+            "[VOR VERÖFFENTLICHUNG: Löschablauf im Spiel, öffentlich erreichbarer Anfrageweg, Bearbeitungszeit und Bestätigung festlegen.]"
+          ]
+        ]
+      ],
+      [
+        "audience",
+        "Zielgruppe, Werbung und Cookies",
+        [
+          [
+            "p",
+            "ArcherFW richtet sich an ein allgemeines Publikum, nicht speziell an Kinder. Anliegen zu Daten eines Kindes können an den endgültigen Datenschutzkontakt gerichtet werden."
+          ],
+          [
+            "p",
+            "Diese Hinweisseite enthält keine eigene Analyse, Cookie-Code, eingebetteten Tracker, Formulare oder externen Schriften. Verlinkte externe Seiten haben eigene Regelungen."
+          ],
+          [
+            "p",
+            "Werbe-, Analyse- und Kauf-SDKs der veröffentlichten Spielversion müssen gesondert geprüft werden. Eine trackerfreie Hinweisseite bedeutet nicht, dass Cloud-Dienste des Spiels keine Daten verarbeiten."
+          ]
+        ]
+      ],
+      [
+        "changes",
+        "Änderungen und Sicherheit",
+        [
+          [
+            "p",
+            "Die Hinweise können aktualisiert werden; das Änderungsdatum steht am Anfang. Vor neuen Diensten oder wesentlich anderer Verarbeitung sind Text und erforderliche Informationen zu aktualisieren."
+          ],
+          [
+            "p",
+            "Vor Veröffentlichung sind Zugriffe, Speicher- und Wiederherstellungsfunktionen sowie Löschung zu prüfen. Diese Vorlage bescheinigt keine Rechtskonformität und ersetzt nicht die tatsächlichen Entscheidungen des Herausgebers."
+          ]
+        ]
+      ]
+    ]
+  }
+}
