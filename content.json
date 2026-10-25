@@ -95,7 +95,7 @@
           ],
           [
             "callout",
-            "A jelenleg ellenőrzött integrációban a hitelesítés és a védett Cloud Save-adatok olvasása működik. A teljes játékállapot szerveroldali írása, visszaállítása és profilátvitele még megvalósítás alatt áll; ez a tervezet nem állítja, hogy a teljes helyi mentés már fel van töltve."
+            "A fejlesztés alatt álló változat staging környezetében ellenőrzött a vendéghitelesítés, a védett felhőprofil mentése és visszaállítása, az egyszeri szerveres jóváírás és az előzetesen engedélyezett profilátvitel. A profil tartalmazhat játékosnevet, haladást, felszerelést, játékbeli egyenlegeket és beállításokat. Régi helyi mentés nem töltődik fel automatikusan. Ez nem jelenti azt, hogy egy korábban telepített játékverzió már ezeket a funkciókat használja."
           ],
           [
             "p",
@@ -134,7 +134,7 @@
             [
               [
                 "Nyilvános oldal tárhelye",
-                "[A VÁLASZTOTT TÁRHELYSZOLGÁLTATÓ]"
+                "GitHub Pages (GitHub, Inc.) — külön nyilvános dokumentumtár, HTTPS"
               ],
               [
                 "Nemzetközi adattovábbítás",
@@ -324,7 +324,7 @@
           ],
           [
             "callout",
-            "The currently verified integration supports authentication and reading Protected Cloud Save data. Full server-side game-state writing, restoration and migration are still being implemented. This draft does not claim that the complete local save has already been uploaded."
+            "The version under development has been verified in a staging environment for guest authentication, protected cloud-profile saving and restoration, one-time server credits and pre-authorized profile migration. Profiles may contain a player name, progress, equipment, in-game balances and settings. Existing local saves are not uploaded automatically. This does not mean that an earlier installed game version already uses these features."
           ],
           [
             "p",
@@ -363,7 +363,7 @@
             [
               [
                 "Public website host",
-                "[SELECTED HOSTING PROVIDER]"
+                "GitHub Pages (GitHub, Inc.) — separate public documentation repository, HTTPS"
               ],
               [
                 "International transfers",
@@ -553,7 +553,7 @@
           ],
           [
             "callout",
-            "Die derzeit überprüfte Integration ermöglicht Anmeldung und das Lesen geschützter Cloud-Save-Daten. Vollständiges serverseitiges Schreiben, Wiederherstellen und Übertragen des Spielstands wird noch umgesetzt. Dieser Entwurf behauptet nicht, dass der vollständige lokale Spielstand bereits hochgeladen wurde."
+            "Die Version in Entwicklung wurde in einer Staging-Umgebung für Gastanmeldung, geschütztes Speichern und Wiederherstellen des Cloud-Profils, einmalige serverseitige Gutschriften und vorab genehmigte Profilübertragung geprüft. Profile können Spielername, Fortschritt, Ausrüstung, Spielguthaben und Einstellungen enthalten. Vorhandene lokale Spielstände werden nicht automatisch hochgeladen. Eine früher installierte Spielversion nutzt diese Funktionen dadurch noch nicht automatisch."
           ],
           [
             "p",
@@ -592,7 +592,7 @@
             [
               [
                 "Hoster dieser Website",
-                "[GEWÄHLTER HOSTINGANBIETER]"
+                "GitHub Pages (GitHub, Inc.) — separates öffentliches Dokumentations-Repository, HTTPS"
               ],
               [
                 "Internationale Übermittlungen",

@@ -1,6 +1,6 @@
 # ArcherFW adatvédelmi oldal — szerkeszthető sablon
 
-2026-10-25. **Nem végleges, nem jogi megfelelőségi tanúsítvány.** A felhasználó kérésére az adatkezelő neve, kapcsolata és a kiadási név sablon; a közönség általános, nem kifejezetten gyermekeknek szánt. Ez a változat nem lett publikálva, és nincs a Unity provider éles privacy URL-jeként beállítva.
+2026-10-25. **Nem végleges, nem jogi megfelelőségi tanúsítvány.** A felhasználó kérésére az adatkezelő neve, kapcsolata és a kiadási név sablon; a közönség általános, nem kifejezetten gyermekeknek szánt. A szerkeszthető tervezet publikálva: https://razvs.github.io/archerfw-privacy/ ; a Unity Player Accounts provider és a játék adatvédelmi hivatkozása ezt használja. Ez még nem végleges jogi tájékoztató.
 
 ## Szerkesztés és feltöltés
 
@@ -13,9 +13,11 @@
 
 ## Ingyenes tárhely saját szerver nélkül
 
-**Elsődleges javaslat: Cloudflare Pages statikus Direct Upload.** A szolgáltató jelenlegi dokumentációja szerint a statikus fájlkérések ingyenesek és nem igényelnek Functions-futtatást. Feltölthető a `dist/` mappa vagy az azt tartalmazó ZIP; a szolgáltató `pages.dev` címet ad. Ne válassz fizetős csomagot, domaint, Worker/Functions-adatbázist vagy opcionális fizetős szolgáltatást ehhez az oldalhoz. A webanalitika maradjon kikapcsolva. A regisztráció/feltételek elfogadása és a végleges nyilvános közzététel a fióktulajdonos, illetve a fő feladat gazdájának munkafolyamata.
+**Használt megoldás: GitHub Pages**, külön, kizárólag nyilvános dokumentumokat tartalmazó `razvs/archerfw-privacy` repositoryból. A Pages forrása `main /docs`, HTTPS. A privát Unity projekt láthatósága nem változott. Nincs saját szerver, vásárolt domain vagy fizetős tárhely.
 
-**Alternatíva: GitHub Pages**, egy kizárólag a nyilvános tájékoztató fájljait tartalmazó külön public repóból, ha az ingyenes csomag ezt támogatja. A meglévő privát játék- vagy buildrepó láthatóságát nem kell és nem szabad emiatt megváltoztatni. Ez nem játékbackend és nem adminhosting.
+Frissítés: szerkeszd a `content.json` fájlt, futtasd a `python build.py` parancsot, és a `dist/` tartalmát másold a nyilvános dokumentumtár `docs/` mappájába. A dokumentumtár gyökerében a `content.json`, `build.py` és ez a README is megtalálható; a generátor ott is `dist/` kimenetet készít. A módosítások commitja után a Pages automatikusan kiadja a weboldalt. Csak a dokumentumfájlokat töltsd fel, soha ne a játékprojektet, mentést vagy hozzáférési kulcsot.
+
+Alternatíva későbbi költözéshez a statikus Cloudflare Pages Direct Upload. Nem lett Cloudflare-előfizetés vagy külön fiók létrehozva.
 
 Unity Cloudra is tölthetők fájlok: a **CCD** tartalomkézbesítésre való. A Cloud Save Player Files személyes mentéshez kötött, nem nyilvános privacy-weboldal. CCD választásakor a stabil nyilvános URL-t, HTML `Content-Type`-ot, letöltés helyetti böngészős megjelenítést és költségkeretet külön ellenőrizni kell; ezt a sablont nem teszteltük CCD-n. Egy ilyen kis dokumentumhoz a Pages egyszerűbb.
 
@@ -25,10 +27,10 @@ Unity Cloudra is tölthetők fájlok: a **CCD** tartalomkézbesítésre való. A
 2. Tényleges adatkezelésenkénti jogalap; ahol szükséges, érdekmérlegelés vagy valódi hozzájárulási folyamat. A tájékoztató olvasása nem általános hozzájárulás.
 3. Valós megőrzési/törlési rend, napló- és backupkezelés. A sablon nem ígér nem implementált törlési határidőt.
 4. Hostszolgáltató, szerződések és nemzetközi adattovábbítás garanciái.
-5. A ténylegesen elkészült és kiadott cloud save/restore, jóváírások, esetleges reklám/analitika/IAP működésének pontos leírása. A jelenlegi szöveg kifejezetten nem állítja késznek az összes játékadat felhőbe írását.
+5. A ténylegesen elkészült és kiadott cloud save/restore, jóváírások, esetleges reklám/analitika/IAP működésének pontos leírása. A jelenlegi szöveg a stagingben ellenőrzött teljes profilmentést írja le, és külön jelzi, hogy ez nem egy korábbi telefonos verzió állapota.
 6. Működő játékadat-/fióktörlési út, áruházi követelmények szerinti in-app lehetőség; külön a több játékban használt Unity Player Account törlésétől. Jelszót, tokeneket vagy bankkártyaadatot nem kérünk a supportkéréshez.
 7. Hatálybalépés és utolsó frissítés, végleges nyelvek ellenőrzése; a draft/noindex jelölések felülvizsgálata.
-8. Nyilvános, bejelentkezés nélkül elérhető, stabil HTTPS URL. Ellenőrzött URL bekötése a Unity providerhez, a játékhoz és az áruházhoz; a sablon URL-je nem helyettesít végleges, valós tájékoztatót.
+8. Nyilvános, bejelentkezés nélkül elérhető, stabil HTTPS URL. A providerhez és játékhoz már bekötött URL véglegesítése, majd az áruházi adatlaphoz megadása; a sablon URL-je nem helyettesít végleges, valós tájékoztatót.
 
 ## Források (ellenőrizve 2026-10-25)
 
