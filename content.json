@@ -5,7 +5,7 @@
     "draft": "SZERKESZTHETŐ SABLON",
     "warning": "Ez egy előkészített tájékoztató, nem végleges kiadási dokumentum. A jelölt mezőket és a ténylegesen kiadott szolgáltatásokat közzététel előtt véglegesíteni kell.",
     "intro": "Így kezeljük az ArcherFW játékhoz kapcsolódó adatokat: mi marad a készüléken, mit használnak a Unity-szolgáltatások, és hogyan kérhető segítség.",
-    "updated": "Tervezet frissítve: 2026. október 25.",
+    "updated": "Tervezet frissítve: 2026. október 26.",
     "effective": "Hatálybalépés: [KIADÁSKOR KITÖLTENDŐ]",
     "contents": "A dokumentumban",
     "skip": "Ugrás a tartalomra",
@@ -91,15 +91,19 @@
         [
           [
             "p",
-            "A játék vendégazonosítást és opcionális tartós fiókhoz kapcsolást támogat. A vendégfiókhoz tartozó hitelesítési adatok elvesztésekor a hozzáférés helyreállítása korlátozott lehet."
-          ],
-          [
-            "callout",
-            "A fejlesztés alatt álló változat staging környezetében ellenőrzött a vendéghitelesítés, a védett felhőprofil mentése és visszaállítása, az egyszeri szerveres jóváírás és az előzetesen engedélyezett profilátvitel. A profil tartalmazhat játékosnevet, haladást, felszerelést, játékbeli egyenlegeket és beállításokat. Régi helyi mentés nem töltődik fel automatikusan. Ez nem jelenti azt, hogy egy korábban telepített játékverzió már ezeket a funkciókat használja."
+            "A felhőmentés választható. A játékon belüli első választóablakban az Elfogadom gomb indítja a Unity vendéghitelesítését és a felhőmentést. Elutasítás vagy bezárás esetén a profil csak helyben mentődik, a játék tovább használható. A beállítás később a Profil → Adatvédelem alatt módosítható."
           ],
           [
             "p",
-            "A végleges tájékoztatót a kiadott felhőmentési működéshez kell igazítani. Ha a felhőmentés aktív lesz, a hozzá tartozó profiladatokat, célokat és megőrzést is rögzíteni kell."
+            "Felhőmódban a játékosnév, haladás, felszerelés és játékbeli egyenlegek egy automatikus Unity-azonosítóhoz kötődnek. A szolgáltató a kapcsolódáshoz szükséges technikai adatokat is kezeli. A külön ötkarakteres Player ID csak szerveres kiosztás után jelenik meg; önmagában nem hitelesít és nem állít helyre fiókot."
+          ],
+          [
+            "p",
+            "Ebben a változatban nincs emailes regisztráció vagy tartós fiókhoz kapcsolási felület. Újratelepítés vagy a vendég-hitelesítési adatok elvesztése esetén a hozzáférés korlátozott lehet. A jövőbeli fiókfunkciókat bevezetésükkor külön ismertetjük."
+          ],
+          [
+            "p",
+            "A régi helyi profil felhőbe átvitele szerveres jutalom-, költés- és tulajdonellenőrzéshez kötött. Elutasításkor a helyi profil megmarad; a pénzügyi és vásárlási jogosultságok nem válnak hitelessé pusztán helyi feltöltéstől. A felhő kikapcsolása leállítja a további szinkronizálást, de önmagában nem törli a korábban tárolt szerveres adatokat."
           ]
         ]
       ],
@@ -234,7 +238,7 @@
     "draft": "EDITABLE TEMPLATE",
     "warning": "This is a prepared draft, not a final release policy. Complete the marked fields and verify the services actually shipped before publication.",
     "intro": "How data related to ArcherFW is handled: what stays on your device, what Unity services use, and how to request help.",
-    "updated": "Draft updated: 25 October 2026",
+    "updated": "Draft updated: 26 October 2026",
     "effective": "Effective date: [COMPLETE BEFORE RELEASE]",
     "contents": "In this document",
     "skip": "Skip to content",
@@ -320,15 +324,19 @@
         [
           [
             "p",
-            "The game supports guest authentication and optional linking to a persistent account. Recovery may be limited if an unlinked guest loses its authentication credentials."
-          ],
-          [
-            "callout",
-            "The version under development has been verified in a staging environment for guest authentication, protected cloud-profile saving and restoration, one-time server credits and pre-authorized profile migration. Profiles may contain a player name, progress, equipment, in-game balances and settings. Existing local saves are not uploaded automatically. This does not mean that an earlier installed game version already uses these features."
+            "Cloud saving is optional. Accept in the first in-game choice starts Unity guest authentication and cloud saves. Declining or closing keeps the profile local and the game playable. You can change the choice under Profile → Privacy."
           ],
           [
             "p",
-            "The final notice must reflect the released cloud-save behaviour. When cloud saves become active, the profile data, purposes and retention must be documented accordingly."
+            "Cloud mode associates the player name, progress, equipment and in-game balances with an automatically generated Unity identifier. The provider also processes technical connection data. The separate five-character Player ID appears only after server allocation; it is not a credential or recovery code."
+          ],
+          [
+            "p",
+            "This version has no email registration or persistent-account linking interface. Reinstalling or losing guest credentials may lose access. Future account features will be explained when introduced."
+          ],
+          [
+            "p",
+            "Moving a local profile to the cloud requires server validation of rewards, spending and ownership. A rejected transfer preserves the local profile; a local upload does not validate purchases or financial entitlements. Disabling cloud saves stops further synchronization but does not itself delete data previously stored on the server."
           ]
         ]
       ],
@@ -463,7 +471,7 @@
     "draft": "BEARBEITBARE VORLAGE",
     "warning": "Dies ist ein vorbereiteter Entwurf, keine endgültige Datenschutzerklärung. Markierte Felder und tatsächlich veröffentlichte Dienste müssen vor der Veröffentlichung bestätigt werden.",
     "intro": "Wie Daten zu ArcherFW verarbeitet werden: was auf deinem Gerät bleibt, was Unity-Dienste verwenden und wie du Hilfe anfordern kannst.",
-    "updated": "Entwurf aktualisiert: 25. Oktober 2026",
+    "updated": "Entwurf aktualisiert: 26. Oktober 2026",
     "effective": "Gültig ab: [VOR VERÖFFENTLICHUNG AUSFÜLLEN]",
     "contents": "In diesem Dokument",
     "skip": "Zum Inhalt springen",
@@ -549,15 +557,19 @@
         [
           [
             "p",
-            "Das Spiel unterstützt Gastanmeldung und die optionale Verknüpfung mit einem dauerhaften Konto. Gehen die Zugangsdaten eines nicht verknüpften Gastes verloren, kann eine Wiederherstellung eingeschränkt sein."
-          ],
-          [
-            "callout",
-            "Die Version in Entwicklung wurde in einer Staging-Umgebung für Gastanmeldung, geschütztes Speichern und Wiederherstellen des Cloud-Profils, einmalige serverseitige Gutschriften und vorab genehmigte Profilübertragung geprüft. Profile können Spielername, Fortschritt, Ausrüstung, Spielguthaben und Einstellungen enthalten. Vorhandene lokale Spielstände werden nicht automatisch hochgeladen. Eine früher installierte Spielversion nutzt diese Funktionen dadurch noch nicht automatisch."
+            "Cloud-Speichern ist optional. Akzeptieren in der ersten Auswahl startet Unity-Gastanmeldung und Cloud-Speichern. Ablehnen oder Schließen belässt das Profil lokal; das Spiel bleibt nutzbar. Unter Profil → Datenschutz ist die Wahl änderbar."
           ],
           [
             "p",
-            "Die endgültigen Hinweise müssen die veröffentlichte Cloud-Funktion beschreiben. Bei ihrer Aktivierung sind Profildaten, Zwecke und Aufbewahrung entsprechend zu dokumentieren."
+            "Im Cloud-Modus sind Spielername, Fortschritt, Ausrüstung und Spielguthaben einer automatisch erzeugten Unity-Kennung zugeordnet. Der Anbieter verarbeitet auch technische Verbindungsdaten. Die separate fünfstellige Player ID erscheint erst nach serverseitiger Vergabe und ist weder Zugangsdaten noch Wiederherstellungscode."
+          ],
+          [
+            "p",
+            "Diese Version enthält keine E-Mail-Registrierung oder dauerhafte Kontoverknüpfung. Neuinstallation oder Verlust der Gast-Zugangsdaten können den Zugang verlieren. Zukünftige Kontofunktionen werden bei Einführung erläutert."
+          ],
+          [
+            "p",
+            "Die Übertragung eines lokalen Profils erfordert serverseitige Prüfung von Belohnungen, Ausgaben und Eigentum. Bei Ablehnung bleibt das lokale Profil erhalten; ein Upload bestätigt keine Käufe oder Zahlungsansprüche. Das Abschalten stoppt weitere Synchronisierung, löscht aber zuvor gespeicherte Serverdaten nicht automatisch."
           ]
         ]
       ],
