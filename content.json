@@ -5,15 +5,15 @@
     "draft": "SZERKESZTHETŐ SABLON",
     "warning": "Ez egy előkészített tájékoztató, nem végleges kiadási dokumentum. A jelölt mezőket és a ténylegesen kiadott szolgáltatásokat közzététel előtt véglegesíteni kell.",
     "intro": "Így kezeljük az ArcherFW játékhoz kapcsolódó adatokat: mi marad a készüléken, mit használnak a Unity-szolgáltatások, és hogyan kérhető segítség.",
-    "updated": "Tervezet frissítve: 2026. október 26.",
+    "updated": "Tervezet frissítve: 2026. október 27.",
     "effective": "Hatálybalépés: [KIADÁSKOR KITÖLTENDŐ]",
     "contents": "A dokumentumban",
     "skip": "Ugrás a tartalomra",
     "back": "Vissza az elejére",
-    "note": "ArcherFW munkacím · általános közönségnek",
+    "note": "ArcherFW · Archer: Forgotten Worlds · általános közönségnek",
     "placeholders": "A színezett mezők még kitöltendők.",
     "sourceLabel": "A Unity saját adatvédelmi tájékoztatója",
-    "accountLabel": "Unity Player Account kezelése",
+    "accountLabel": "Unity Cloud Save adatvédelmi információk",
     "sections": [
       [
         "controller",
@@ -28,15 +28,15 @@
             [
               [
                 "Játék kiadási neve",
-                "ArcherFW [VÉGLEGES KIADÁSI NÉV]"
+                "ArcherFW"
               ],
               [
                 "Adatkezelő / kiadó",
-                "[ADATKEZELŐ NYILVÁNOS NEVE]"
+                "Lakatos Balázs"
               ],
               [
                 "Kapcsolattartó e-mail",
-                "[NYILVÁNOS KAPCSOLATTARTÓ E-MAIL]"
+                "archerforgottenworlds@gmail.com"
               ],
               [
                 "Levelezési elérhetőség",
@@ -46,7 +46,11 @@
           ],
           [
             "p",
-            "A játék nem kér saját adatkezelési célra jelszót. A külső belépést a Unity vagy a választott bejelentkezési szolgáltató felülete kezeli."
+            "Az ArcherFW az Archer: Forgotten Worlds névre utal."
+          ],
+          [
+            "p",
+            "Ebben a játékverzióban nincs emailes regisztráció, jelszavas belépés vagy Unity Player Accounts felület. A választható felhőmentés automatikus, anonim Unity Authentication-azonosítót használ."
           ]
         ]
       ],
@@ -67,7 +71,7 @@
               ],
               [
                 "Fiókazonosítás",
-                "Unity Authentication játékosazonosító; összekapcsoláskor a külső fiókhoz tartozó azonosító."
+                "Anonim Unity Authentication játékosazonosító és a szerver által kiosztott, külön ötkarakteres nyilvános Player ID."
               ],
               [
                 "Technikai kapcsolat",
@@ -81,7 +85,11 @@
           ],
           [
             "p",
-            "Előre meghatározott avatárok és bannerek választhatók; saját profilfotó feltöltése nem része a játéknak. A játék jelenlegi fiókintegrációja nem kér e-mail-hozzáférési jogosultságot. A Unity saját fiókoldala ettől függetlenül kezelhet e-mail-címet."
+            "Előre meghatározott avatárok és bannerek választhatók; saját profilfotó feltöltése nem része a játéknak. A játék jelenlegi változata nem kér e-mail-címet a felhőprofil létrehozásához."
+          ],
+          [
+            "p",
+            "Felhős ranglisták: a szerver által elfogadott felhőprofil alapján a játékos megjelenítési neve, ellenőrzött teljesítésekből számított ölésszáma, csillagai és kampányhaladása más játékosok számára megjelenhet. A hitelesítési azonosítót nem adjuk át a ranglistafelületen. A szolgáltatást Unity Leaderboards és Cloud Code biztosítja. A teljes profiltörlés a három ranglistabejegyzést is eltávolítja."
           ]
         ]
       ],
@@ -131,7 +139,7 @@
         [
           [
             "p",
-            "A Unity Gaming Services a játék hitelesítéséhez és felhőfunkcióihoz kapcsolódó szolgáltató. A Unity Player Account önálló Unity-fiók, amelynél Unity külön adatkezelőként jár el; a játékhoz kapcsolódó adatkezelésért a játék kiadója felel."
+            "A Unity Gaming Services Authentication, Cloud Save és Cloud Code a választható anonim felhőprofil működésének szolgáltatói. Az ArcherFW játékhoz kapcsolódó adatkezelésért a játék kiadója felel. Jelenleg nincs külön Unity Player Account belépés vagy fióklinkelés."
           ],
           [
             "fields",
@@ -149,6 +157,10 @@
           [
             "p",
             "A webtárhely szolgáltatója az oldal kiszolgálásához szükséges technikai kérésadatokat kezelheti. A szolgáltatók szerepét és az esetleges EGT-n kívüli feldolgozás garanciáit a végleges beállítások és szerződések alapján kell pontosítani."
+          ],
+          [
+            "p",
+            "A nyilvános tájékoztató-oldal és a játék letölthető tartalma GitHub HTTPS tárhelyről érhető el. E kérésekhez a tárhelyszolgáltató IP-címet és technikai kérésadatokat kezelhet. A helyi mentési mód választása nem jelent minden hálózati tartalomkérés letiltását."
           ]
         ]
       ],
@@ -176,25 +188,25 @@
           ],
           [
             "p",
-            "A kérést a fenti, véglegesítés után működő kapcsolattartói címre lehet elküldeni. A fiókhoz tartozás ellenőrzéséhez szükséges adatot kérhetünk, de jelszót, belépési kódot vagy bankkártyaadatot ne küldj."
+            "A kérést a fenti kapcsolattartói címre lehet elküldeni. A fiókhoz tartozás ellenőrzéséhez szükséges adatot kérhetünk, de jelszót, belépési kódot vagy bankkártyaadatot ne küldj."
           ]
         ]
       ],
       [
         "deletion",
-        "Játékadat vagy Unity-fiók törlése?",
+        "Az ArcherFW játékadatainak törlése",
         [
           [
             "p",
-            "A játékprofil és a Unity Player Account különböző adatok és szolgáltatások. A készülékről való eltávolítás nem feltétlenül törli a felhőadatokat. A játékhoz tartozó törlési kérést a játék adatkezelője kezeli."
+            "Az alkalmazás eltávolítása és a felhőmentés kikapcsolása önmagában nem törli a korábbi felhőprofilt. A jelenlegi törlési funkció az ArcherFW saját anonim játékprofiljára vonatkozik; nincs külön emailes vagy Unity Player Accounts fiók a játékban."
           ],
           [
             "p",
-            "A Unity Player Account kezelése a Unity saját felületén történik. Ennek törlése önmagában nem jelenti az összes, más integrált játékban tárolt adat törlését; a játékadatokhoz külön kérés is szükséges lehet."
+            "Az új kliensváltozatban a Profil → Fiók → Összes adat törlése gombbal indítható a saját játékprofil törlése. A külön megerősítés után a folyamat a játék Unity Authentication-azonosítóját, az aktuális felhőkörnyezet profiladatait, a Player ID-foglalást és ezen eszköz kapcsolódó helyi mentéseit törli. A felhőtörléshez internetkapcsolat kell; félbeszakításkor a játék függő állapotot jelez, és nem tölti vissza a régi mentést."
           ],
           [
-            "placeholder",
-            "[KIADÁS ELŐTT: játékból indítható törlési folyamat és nyilvános kérelmezési lehetőség, határidő és visszaigazolás véglegesítése.]"
+            "p",
+            "Ha a játékbeli funkcióhoz nem férsz hozzá, az archerforgottenworlds@gmail.com címen kérheted az ArcherFW játékadatainak törlését. Az adatkezelő ellenőrzi a profilhoz tartozást; a nyilvános Player ID önmagában nem jogosít törlésre. Ne küldj jelszót vagy belépési kódot. A támogatási és szolgáltatói naplókra vonatkozó megőrzési rendet a végleges tájékoztatóban külön kell rögzíteni."
           ]
         ]
       ],
@@ -204,7 +216,7 @@
         [
           [
             "p",
-            "Az ArcherFW általános közönségnek készül, nem kifejezetten gyermekeknek szánt szolgáltatás. Gyermek adatait érintő kérdésnél a végleges kapcsolattartón keresztül lehet jelezni a problémát."
+            "Az ArcherFW általános közönségnek készül, nem kifejezetten gyermekeknek szánt szolgáltatás. Gyermek adatait érintő kérdésnél a fenti kapcsolattartón keresztül lehet jelezni a problémát."
           ],
           [
             "p",
@@ -230,7 +242,8 @@
           ]
         ]
       ]
-    ]
+    ],
+    "accountUrl": "https://docs.unity.com/en-us/cloud-save/privacy-and-consent/overview"
   },
   "en": {
     "title": "Privacy notice",
@@ -238,15 +251,15 @@
     "draft": "EDITABLE TEMPLATE",
     "warning": "This is a prepared draft, not a final release policy. Complete the marked fields and verify the services actually shipped before publication.",
     "intro": "How data related to ArcherFW is handled: what stays on your device, what Unity services use, and how to request help.",
-    "updated": "Draft updated: 26 October 2026",
+    "updated": "Draft updated: 27 October 2026",
     "effective": "Effective date: [COMPLETE BEFORE RELEASE]",
     "contents": "In this document",
     "skip": "Skip to content",
     "back": "Back to top",
-    "note": "ArcherFW working title · general audience",
+    "note": "ArcherFW · Archer: Forgotten Worlds · general audience",
     "placeholders": "Highlighted fields still need to be completed.",
     "sourceLabel": "Unity privacy policy",
-    "accountLabel": "Manage your Unity Player Account",
+    "accountLabel": "Unity Cloud Save privacy information",
     "sections": [
       [
         "controller",
@@ -261,15 +274,15 @@
             [
               [
                 "Release title",
-                "ArcherFW [FINAL RELEASE TITLE]"
+                "ArcherFW"
               ],
               [
                 "Controller / publisher",
-                "[PUBLIC CONTROLLER NAME]"
+                "Lakatos Balázs"
               ],
               [
                 "Contact email",
-                "[PUBLIC CONTACT EMAIL]"
+                "archerforgottenworlds@gmail.com"
               ],
               [
                 "Postal contact",
@@ -279,7 +292,11 @@
           ],
           [
             "p",
-            "The game does not ask for your password for its own data handling. External sign-in is handled by Unity or your chosen sign-in provider."
+            "ArcherFW refers to Archer: Forgotten Worlds."
+          ],
+          [
+            "p",
+            "This game version has no email registration, password sign-in or Unity Player Accounts interface. Optional cloud saving uses an automatically generated anonymous Unity Authentication identifier."
           ]
         ]
       ],
@@ -300,7 +317,7 @@
               ],
               [
                 "Account identification",
-                "Unity Authentication Player ID and, when linked, the identifier associated with the external account."
+                "Anonymous Unity Authentication Player ID and a separate five-character public Player ID allocated by the server."
               ],
               [
                 "Technical connection",
@@ -314,7 +331,11 @@
           ],
           [
             "p",
-            "Avatars and banners are predefined; custom profile-photo uploads are not supported. The current game integration does not request the email scope. Unity’s own account website can process an email address separately."
+            "Avatars and banners are predefined; custom profile-photo uploads are not supported. This version does not request an email address to create a cloud profile."
+          ],
+          [
+            "p",
+            "Cloud leaderboards: your display name, kills bounded by accepted completed runs, stars and campaign progress from the server-accepted cloud profile may be visible to other players. The ranking interface does not disclose your authentication identifier. Unity Leaderboards and Cloud Code provide this service. Full profile erasure also removes your entries from all three leaderboards."
           ]
         ]
       ],
@@ -364,7 +385,7 @@
         [
           [
             "p",
-            "Unity Gaming Services provides services for the game’s authentication and cloud features. A Unity Player Account is a separate Unity account, for which Unity acts as an independent controller; the game publisher is responsible for its game-related processing."
+            "Unity Gaming Services Authentication, Cloud Save and Cloud Code provide the optional anonymous cloud-profile services. The game publisher is responsible for ArcherFW game-related processing. There is currently no separate Unity Player Account sign-in or account linking."
           ],
           [
             "fields",
@@ -382,6 +403,10 @@
           [
             "p",
             "The website host can process technical request data needed to serve this page. Provider roles and safeguards for any processing outside the EEA must be confirmed against the final configuration and agreements."
+          ],
+          [
+            "p",
+            "The public notice website and downloadable game content use GitHub HTTPS hosting. The hosting provider can process an IP address and technical request data for these requests. Choosing local saves does not disable every network content request."
           ]
         ]
       ],
@@ -409,25 +434,25 @@
           ],
           [
             "p",
-            "Send requests to the contact address above once it has been finalised. We may request information needed to verify account ownership. Do not send passwords, sign-in codes or payment-card information."
+            "Send requests to the contact address above. We may request information needed to verify account ownership. Do not send passwords, sign-in codes or payment-card information."
           ]
         ]
       ],
       [
         "deletion",
-        "Delete game data or a Unity account?",
+        "Deleting ArcherFW game data",
         [
           [
             "p",
-            "The game profile and Unity Player Account are different records and services. Uninstalling does not necessarily delete cloud data. The game controller handles deletion requests for game-related data."
+            "Uninstalling the app or disabling cloud saves does not itself delete a previous cloud profile. The current deletion function concerns the anonymous ArcherFW game profile; there is no separate email or Unity Player Accounts account in the game."
           ],
           [
             "p",
-            "Manage the separate Unity Player Account on Unity’s own website. Deleting it does not by itself delete all data held by other integrated games; a separate game-data request may be needed."
+            "In the updated client, use Profile → Account → Delete all data to request erasure of your game profile. After separate confirmation, the process removes the game’s Unity Authentication identity, profile data in the active cloud environment, the Player ID reservation and related local saves on this device. Cloud erasure requires an internet connection. If interrupted, the game shows a pending state and does not restore the previous save."
           ],
           [
-            "placeholder",
-            "[BEFORE RELEASE: finalise the in-game deletion flow and public request route, timing and confirmation.]"
+            "p",
+            "If you cannot access the in-game feature, request deletion of ArcherFW game data at archerforgottenworlds@gmail.com. The controller verifies profile ownership; the public Player ID alone does not authorise deletion. Do not send passwords or sign-in codes. Retention rules for support correspondence and provider logs must be specified separately in the final notice."
           ]
         ]
       ],
@@ -437,7 +462,7 @@
         [
           [
             "p",
-            "ArcherFW is intended for a general audience and is not specifically directed to children. Concerns involving a child’s data can be raised with the finalised privacy contact."
+            "ArcherFW is intended for a general audience and is not specifically directed to children. Concerns involving a child’s data can be raised with the privacy contact above."
           ],
           [
             "p",
@@ -463,7 +488,8 @@
           ]
         ]
       ]
-    ]
+    ],
+    "accountUrl": "https://docs.unity.com/en-us/cloud-save/privacy-and-consent/overview"
   },
   "de": {
     "title": "Datenschutzhinweise",
@@ -471,15 +497,15 @@
     "draft": "BEARBEITBARE VORLAGE",
     "warning": "Dies ist ein vorbereiteter Entwurf, keine endgültige Datenschutzerklärung. Markierte Felder und tatsächlich veröffentlichte Dienste müssen vor der Veröffentlichung bestätigt werden.",
     "intro": "Wie Daten zu ArcherFW verarbeitet werden: was auf deinem Gerät bleibt, was Unity-Dienste verwenden und wie du Hilfe anfordern kannst.",
-    "updated": "Entwurf aktualisiert: 26. Oktober 2026",
+    "updated": "Entwurf aktualisiert: 27. Oktober 2026",
     "effective": "Gültig ab: [VOR VERÖFFENTLICHUNG AUSFÜLLEN]",
     "contents": "In diesem Dokument",
     "skip": "Zum Inhalt springen",
     "back": "Zurück nach oben",
-    "note": "ArcherFW Arbeitstitel · allgemeines Publikum",
+    "note": "ArcherFW · Archer: Forgotten Worlds · allgemeines Publikum",
     "placeholders": "Markierte Angaben sind noch auszufüllen.",
     "sourceLabel": "Datenschutzerklärung von Unity",
-    "accountLabel": "Unity Player Account verwalten",
+    "accountLabel": "Datenschutzhinweise zu Unity Cloud Save",
     "sections": [
       [
         "controller",
@@ -494,15 +520,15 @@
             [
               [
                 "Veröffentlichungstitel",
-                "ArcherFW [ENDGÜLTIGER TITEL]"
+                "ArcherFW"
               ],
               [
                 "Verantwortlicher / Herausgeber",
-                "[ÖFFENTLICHER NAME DES VERANTWORTLICHEN]"
+                "Lakatos Balázs"
               ],
               [
                 "Kontakt-E-Mail",
-                "[ÖFFENTLICHE KONTAKT-E-MAIL]"
+                "archerforgottenworlds@gmail.com"
               ],
               [
                 "Postkontakt",
@@ -512,7 +538,11 @@
           ],
           [
             "p",
-            "Das Spiel fragt für seine eigene Datenverarbeitung nicht nach deinem Passwort. Externe Anmeldungen erfolgen über Unity oder den gewählten Anmeldeanbieter."
+            "ArcherFW steht für Archer: Forgotten Worlds."
+          ],
+          [
+            "p",
+            "Diese Spielversion bietet keine E-Mail-Registrierung, Passwortanmeldung oder Unity-Player-Accounts-Oberfläche. Optionales Cloud-Speichern verwendet eine automatisch erzeugte anonyme Unity-Authentication-Kennung."
           ]
         ]
       ],
@@ -533,7 +563,7 @@
               ],
               [
                 "Kontoidentifizierung",
-                "Unity Authentication Player ID und bei Verknüpfung die Kennung des externen Kontos."
+                "Anonyme Unity Authentication Player ID und eine separate fünfstellige öffentliche Player ID, die der Server vergibt."
               ],
               [
                 "Technische Verbindung",
@@ -547,7 +577,11 @@
           ],
           [
             "p",
-            "Avatare und Banner sind vorgegeben; eigene Profilfotos können nicht hochgeladen werden. Die derzeitige Spielintegration fordert keinen E-Mail-Scope an. Die separate Kontowebsite von Unity kann dennoch eine E-Mail-Adresse verarbeiten."
+            "Avatare und Banner sind vorgegeben; eigene Profilfotos können nicht hochgeladen werden. Diese Version verlangt zur Erstellung eines Cloud-Profils keine E-Mail-Adresse."
+          ],
+          [
+            "p",
+            "Cloud-Ranglisten: Dein Anzeigename, die durch akzeptierte abgeschlossene Runden begrenzten Abschüsse, Sterne und dein Kampagnenfortschritt aus dem serverseitig akzeptierten Cloud-Profil können anderen Spielern angezeigt werden. Die Ranglistenoberfläche gibt deine Authentifizierungskennung nicht weiter. Unity Leaderboards und Cloud Code stellen diesen Dienst bereit. Die vollständige Profillöschung entfernt auch deine Einträge aus allen drei Ranglisten."
           ]
         ]
       ],
@@ -597,7 +631,7 @@
         [
           [
             "p",
-            "Unity Gaming Services stellt Dienste für Anmeldung und Cloud-Funktionen bereit. Ein Unity Player Account ist ein eigenständiges Unity-Konto mit Unity als unabhängig Verantwortlichem. Für die spielbezogene Verarbeitung ist der Herausgeber verantwortlich."
+            "Unity Gaming Services Authentication, Cloud Save und Cloud Code stellen die optionalen anonymen Cloud-Profil-Dienste bereit. Für die Verarbeitung im Zusammenhang mit ArcherFW ist der Herausgeber verantwortlich. Es gibt derzeit keine separate Unity-Player-Account-Anmeldung oder Kontoverknüpfung."
           ],
           [
             "fields",
@@ -615,6 +649,10 @@
           [
             "p",
             "Der Website-Hoster kann technische Anfragedaten zur Auslieferung dieser Seite verarbeiten. Anbieterrollen und Garantien für eine Verarbeitung außerhalb des EWR sind anhand der endgültigen Konfiguration und Verträge zu bestätigen."
+          ],
+          [
+            "p",
+            "Die öffentliche Hinweisseite und herunterladbare Spielinhalte verwenden GitHub-HTTPS-Hosting. Der Hoster kann dafür IP-Adressen und technische Anfragedaten verarbeiten. Lokales Speichern schaltet nicht sämtliche Netzwerkanfragen für Inhalte ab."
           ]
         ]
       ],
@@ -642,25 +680,25 @@
           ],
           [
             "p",
-            "Sende Anfragen an die oben nachzutragende Kontaktadresse. Zur Prüfung der Kontozugehörigkeit können notwendige Angaben erfragt werden. Sende keine Passwörter, Anmeldecodes oder Zahlungskartendaten."
+            "Sende Anfragen an die oben angegebene Kontaktadresse. Zur Prüfung der Kontozugehörigkeit können notwendige Angaben erfragt werden. Sende keine Passwörter, Anmeldecodes oder Zahlungskartendaten."
           ]
         ]
       ],
       [
         "deletion",
-        "Spieldaten oder Unity-Konto löschen?",
+        "ArcherFW-Spieldaten löschen",
         [
           [
             "p",
-            "Spielprofil und Unity Player Account sind unterschiedliche Datensätze und Dienste. Eine Deinstallation löscht Cloud-Daten nicht zwingend. Löschanfragen zu Spieldaten bearbeitet der Verantwortliche des Spiels."
+            "Deinstallation oder Abschalten des Cloud-Speicherns löscht ein vorheriges Cloud-Profil nicht automatisch. Die aktuelle Löschfunktion betrifft das anonyme ArcherFW-Spielprofil; ein separates E-Mail- oder Unity-Player-Accounts-Konto gibt es im Spiel nicht."
           ],
           [
             "p",
-            "Das eigenständige Unity Player Account wird auf Unitys Website verwaltet. Seine Löschung entfernt nicht automatisch sämtliche Daten anderer integrierter Spiele; dafür kann eine gesonderte Anfrage erforderlich sein."
+            "Im aktualisierten Client kannst du unter Profil → Konto → Alle Daten löschen die Löschung deines Spielprofils anfordern. Nach gesonderter Bestätigung werden die Unity-Authentication-Kennung des Spiels, Profildaten der aktiven Cloud-Umgebung, die Player-ID-Reservierung und zugehörige lokale Spielstände auf diesem Gerät gelöscht. Cloud-Löschung benötigt Internet. Bei einer Unterbrechung wird ein ausstehender Vorgang angezeigt und der alte Spielstand nicht wiederhergestellt."
           ],
           [
-            "placeholder",
-            "[VOR VERÖFFENTLICHUNG: Löschablauf im Spiel, öffentlich erreichbarer Anfrageweg, Bearbeitungszeit und Bestätigung festlegen.]"
+            "p",
+            "Wenn du die Funktion im Spiel nicht nutzen kannst, beantrage die Löschung der ArcherFW-Spieldaten unter archerforgottenworlds@gmail.com. Der Verantwortliche prüft die Kontozugehörigkeit; die öffentliche Player ID allein berechtigt nicht zur Löschung. Sende keine Passwörter oder Anmeldecodes. Aufbewahrungsregeln für Support-Korrespondenz und Anbieterprotokolle sind in der endgültigen Erklärung gesondert festzulegen."
           ]
         ]
       ],
@@ -670,7 +708,7 @@
         [
           [
             "p",
-            "ArcherFW richtet sich an ein allgemeines Publikum, nicht speziell an Kinder. Anliegen zu Daten eines Kindes können an den endgültigen Datenschutzkontakt gerichtet werden."
+            "ArcherFW richtet sich an ein allgemeines Publikum, nicht speziell an Kinder. Anliegen zu Daten eines Kindes können an den oben angegebenen Datenschutzkontakt gerichtet werden."
           ],
           [
             "p",
@@ -696,6 +734,7 @@
           ]
         ]
       ]
-    ]
+    ],
+    "accountUrl": "https://docs.unity.com/en-us/cloud-save/privacy-and-consent/overview"
   }
 }
